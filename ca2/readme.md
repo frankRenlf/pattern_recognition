@@ -20,3 +20,5 @@ saved and if you need to rerun the codes, just do that sequentially from top.
 
 Note: remember to replace the path of PIE and own photos to the folder address on your
 computer. If you do not install torchvision, just annotate the relevant code, they are used to test.
+
+And if you want to change the selected samples, you can change variable 'seed', which ensure the experiment can be reproduced.
