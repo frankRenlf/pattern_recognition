@@ -4,7 +4,7 @@ The catalogue should be constructed in this way
 
 Environment setup:
 
-creat -n <name> python=3.9
+conda create --name name_of_env python=3.9
 
 pip install opencv
 
@@ -21,4 +21,4 @@ saved and if you need to rerun the codes, just do that sequentially from top.
 Note: remember to replace the path of PIE and own photos to the folder address on your
 computer. If you do not install torchvision, just annotate the relevant code, they are used to test.
 
-And if you want to change the selected samples, you can change variable 'seed', which ensure the experiment can be reproduced.
+And if you want to change the experiment results, you can change variable 'seed', which ensure the experiment can be reproduced.
